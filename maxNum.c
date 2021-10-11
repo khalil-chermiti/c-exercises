@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-main()
+void main()
 {
     int max , a ,b ,c ;
 
-    a = 2 ;
-    b = 5 ;
-    c = 9 ;
+    printf("entrer a , b , c : ") ;
+    scanf("%i %i %i" , &a , &b , &c) ;
 
     max = a ;
 
